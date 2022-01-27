@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>With Module</title>
+    <script type="module" src="say.js"></script>
+</head>
+
+<body>
+    <script>
+        /*
+        ## Dengan Module
+        ● Namun jika kita menggunakan module, kita bisa secara selektif memilih bagian kode mana yang ingin kita ekspos keluar
+        ● Secara default kode yang kita buat menggunakan JavaScript Module tidak bisa digunakan dari luar file, kecuali kita memintanya untuk mengekspos keluar
+
+        ## Membuat Module
+        ● Membuat module sangat sederhana, kita cukup membuat file JavaScript saja
+        ● Yang membedakan adalah, saat kita akan meload file JavaScript dari HTML, kita tidak
+        menggunakan type javascript lagi, melainkan menggunakan type module
+
+        ## File .js dan .mjs
+        ● Karena File JavaScript Module sebenarnya sama dengan JavaScript, kadang developer
+        membedakan nama file untuk JavaScript Module menggunakan .mjs
+        ● Hal ini sebenarnya tidak ada kewajiban, hanya saja agar mempermudah ketika tahapan
+        development, kita bisa dengan mudah membedakan mana file JavaScript biasa, mana file
+        JavaScript module hanya dengan extension file nya saja
+        ● Pada kelas ini, kita akan tetap menggunakan file .js ketika membuat module, agar tidak membingungkan untuk pemula
+        */
+        sayHello("Fauzan");
+        sayGoodBye("Alshad");
+    </script>
+</body>
+
+</html>
